@@ -68,7 +68,6 @@ namespace FAQU
             this.loginLabel.Size = new System.Drawing.Size(38, 13);
             this.loginLabel.TabIndex = 3;
             this.loginLabel.Text = "Логин";
-            this.loginLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // passwordLabel
             // 
@@ -79,7 +78,7 @@ namespace FAQU
             this.passwordLabel.TabIndex = 4;
             this.passwordLabel.Text = "Пароль";
             // 
-            // Form1
+            // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,7 +88,7 @@ namespace FAQU
             this.Controls.Add(this.loginField);
             this.Controls.Add(this.passField);
             this.Controls.Add(this.enterButton);
-            this.Name = "Form1";
+            this.Name = "Auth";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Auth_Load);
             this.ResumeLayout(false);
