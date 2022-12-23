@@ -16,5 +16,10 @@ namespace FAQU
         {
             InitializeComponent();
         }
+
+        private void emae_Load(object sender, EventArgs e)
+        {
+            // привет!
+        }
     }
 }

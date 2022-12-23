@@ -71,6 +71,7 @@ namespace FAQU
             this.Controls.Add(this.label1);
             this.Name = "emae";
             this.Text = "emae";
+            this.Load += new System.EventHandler(this.emae_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
