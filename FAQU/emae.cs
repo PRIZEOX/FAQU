@@ -20,6 +20,7 @@ namespace FAQU
         private void emae_Load(object sender, EventArgs e)
         {
             // привет!
+            // привет
         }
     }
 }
